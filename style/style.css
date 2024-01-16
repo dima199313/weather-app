@@ -1,20 +1,20 @@
 .main {
-  background-color: #2C2C2C;
+  background-color: #2c2c2c;
 }
-.container{
+.container {
   margin: 0 auto;
   max-width: 600px;
   padding: 0 15px;
 }
-.title-row__1{
+.title-row__1 {
   padding-top: 59px;
   display: flex;
   justify-content: space-between;
 }
 .title-col__1 {
 }
-.title__name{
-  color: #FEFEFE;
+.title__name {
+  color: #fefefe;
   font-family: Play, sans-serif;
   font-size: 22px;
   font-style: normal;
@@ -23,18 +23,16 @@
 }
 .title-col__2 {
 }
-.title__app{
-  color: #EFD02C;
+.title__app {
+  color: #efd02c;
   font-family: Play;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-
 }
 .title-col__1 {
   padding: 15px 15px 35px;
-
 }
 .input-group {
   display: flex;
@@ -46,7 +44,7 @@
   width: 550px;
   height: 44px;
   border-radius: 8px 0px 0px 8px;
-  color: #0E0D0D;
+  color: #0e0d0d;
   font-family: Roboto;
   font-size: 20px;
   font-style: normal;
@@ -59,35 +57,32 @@
   height: 44px;
   background-color: #eccf3e;
   border-radius: 0px 8px 8px 0px;
-  color: #0E0D0D;
+  color: #0e0d0d;
   font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  transition: all .2s ease-in;
+  transition: all 0.2s ease-in;
 }
-.title-btn:hover{
+.title-btn:hover {
   background-color: #af9201;
-  color: #FEFEFE;
-  
+  color: #fefefe;
 }
 
 @media (max-width: 580px) {
-  .title-row__1{
+  .title-row__1 {
     padding-top: 59px;
     padding-bottom: 30px;
     display: flex;
     align-items: center;
     flex-direction: column;
   }
-  .title__name{
+  .title__name {
     font-size: 27px;
   }
-  .title__app{
-
+  .title__app {
     font-size: 50px;
-
   }
   .form-control {
     font-size: 18px;
@@ -98,7 +93,6 @@
     font-weight: 600;
   }
 }
-
 
 .card {
   background-color: #707070;
@@ -173,7 +167,7 @@
   line-height: normal;
 }
 .card__show-img {
-  max-width: 150px;
+  width: 150px;
 }
 .card__temperature {
 }
@@ -188,7 +182,7 @@
 }
 
 @media (max-width: 619px) {
-  .temperature-p{
+  .temperature-p {
     font-size: 60px;
     font-weight: 600;
   }
@@ -202,11 +196,10 @@
   padding: 21px 15px;
 }
 .Copyright__p {
-  color: #FFF;
+  color: #fff;
   font-family: Play;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-
