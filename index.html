@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="shortcut icon" href="./img/favicon/cloud-sun-fill.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./style/reset.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Playfair+Display:wght@700&family=Raleway:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <!-- title -->
+      <section class="title">
+        <div class="container">
+          <div class="title-row__1">
+            <div class="title-col__1">
+              <p class="title__name">Dmitry Kirshchyn production</p>
+            </div>
+            <div class="title-col__2">
+              <p class="title__app">Weather App</p>
+            </div>
+          </div>
+          <div class="title-col__3">
+            <div class="title-col__1">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Введите название города..." aria-label="Введите название города" aria-describedby="button-addon2" maxlength="20">
+                <button class="title-btn" type="button" id="button-addon2">Показать</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- card -->
+      <section class="card">
+        <div class="container">
+          <div class="card-item">
+            <div class="card__row-1">
+              <div class="card__sity">
+                <p class="sity">Kalinkavichy</p>
+              </div>
+              <div class="card__bage">
+                <p class="bage">BY</p>
+              </div>
+            </div>
+
+            <div class="card__row-2">
+              <div class="card__show-item">
+                <div class="card__show-p">
+                  <p class="status">Облачно</p>
+                </div>
+                <div class="card__show-img">
+                  <img src="./img/cloud/28.png" alt="status">
+                </div>
+              </div>
+              <div class="card__temperature">
+                <p class="temperature-p">-19°</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- footer -->
+      <section class="footer">
+        <div class="Copyright">
+          <p class="Copyright__p">Copyright 2024 © Все права защищены</p>
+        </div>
+      </section>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
